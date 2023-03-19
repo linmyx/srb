@@ -1,0 +1,18 @@
+server:
+  port: 8130
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-oss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # nacos服务地址
+aliyun:
+  oss:
+    endpoint: 填写自己的
+    keyId: 填写自己的
+    keySecret: 填写自己的
+    bucketName: 填写自己的
